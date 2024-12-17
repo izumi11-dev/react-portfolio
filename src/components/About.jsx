@@ -15,7 +15,7 @@ function About() {
                 <div className="col text-center mt-3 md-fs-6 fs-5 text-center">
                     <span>  I am a Full-Stack Developer with a strong background in building dynamic, high-performance web applications using PHP, Laravel, and React. I specialize in creating seamless, interactive front-end experiences while ensuring robust, scalable back-end functionality.</span>
                     <div className="mt-1">
-                      <h2>skill</h2>
+                      
                       <div className="">
                       <i className="fa-brands fa-html5 ms-3 fs-1"></i>
                       <i className="fa-brands fa-css3-alt ms-3 fs-1"></i>
