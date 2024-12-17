@@ -1,5 +1,6 @@
-import Typed from 'typed.js';
+
 import React from 'react';
+import Typed from 'typed.js';
 
 function Home() {
 
