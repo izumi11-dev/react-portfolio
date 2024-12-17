@@ -1,25 +1,10 @@
 
 import React from 'react';
-import Typed from 'typed.js';
+
 
 function Home() {
 
-    const el = React.useRef(null);
-
-  React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['Full-stack developer','UI/UX Designer'],
-      typeSpeed: 50,
-      backSpeed: 50,
-
-      loop : true
-    });
-
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      typed.destroy();
-    };
-  }, []);
+    
     return (
         <div className="home">
             <div className="container mt-5">
@@ -36,7 +21,7 @@ function Home() {
                 
                 <div className="col text-center mt-5">
                
-                <h1 className='text-black fs-1'>Im a <span ref={el} className='text-danger' /> </h1>
+            
                 </div>
 
                 <div className="col text-center mt-5 fs-sm-6 fs-5">
